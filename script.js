@@ -33,7 +33,7 @@ overlay.addEventListener("click", closeModal);
 // Handling KeyPress event
 document.addEventListener("keypress", function (e) {
   // console.log(e.key);
-  if (e.key === "Esc" && !modal.classList.contains("hidden")) {
+  if (e.key === "`" && !modal.classList.contains("hidden")) {
     closeModal();
   }
 });
